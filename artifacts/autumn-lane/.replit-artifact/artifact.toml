@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Autumn Lane"
+description = "A cozy illustrated fall neighborhood with a draggable gumball machine that dispenses personal affirmations, optional ambient audio, and a custom JSON-backed API."
+version = "1.0.0"
+id = "artifacts/autumn-lane"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22781
+
+[services.development]
+run = "pnpm --filter @workspace/autumn-lane run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/autumn-lane", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/autumn-lane/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22781"
+BASE_PATH = "/"

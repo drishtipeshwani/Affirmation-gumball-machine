@@ -1,0 +1,17 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "faO85qT4-uhs4OsDaKGJx"
+uri = "file://attached_assets/generated_images/blue-pink-pastel-gumball-machine-transparent.png"
+type = "image"
+title = "Gumball machine — blue, cream and pink palette"
+description = "Transparent PNG of the selected pastel illustration, recolored using your navy, sky-blue, cream and pink palette. Ready for review."
+logical_id = "61a7837a-1327-4f1a-a659-ca5986398037"
+content_hash = "sha256:ad49c7ce534d815869567e851e8c6c44f22902136cfaec8a3367fb9d089ec7ca"
+size = 958814
+mtime_ms = 1791052068741
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:237dee34-e151-4a60-955a-835ac2ce7528/61a7837a-1327-4f1a-a659-ca5986398037/3c0d18f6-fee0-4f80-bde7-d800b1c375cf"
+storage_version_token = "1791052116778291"
+content_type = "image/png"
+

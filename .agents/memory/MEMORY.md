@@ -1,0 +1,4 @@
+- [Approved pastel machine](doodle-design-direction.md) — Pastel colored-outline illustration selected; preserve the machine silhouette during palette revisions.
+- [Plain ivory scene](layered-neighborhood.md) — Plain warm-ivory scene; machine sits at the viewport bottom without page scrolling.
+- [Fortune-ball reveal](fortune-ball-reveal.md) — Paper affirmation emerges from an opening ball; show a sample for approval before app integration.
+- [Lean app UI](lean-app-ui.md) — Do not retain unused generic UI components solely for possible future screens.

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm run typecheck:libs && pnpm --filter @workspace/autumn-lane run build",
+  "outputDirectory": "artifacts/autumn-lane/dist/public",
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
+  ]
+}
