@@ -70,14 +70,6 @@ export default function Home() {
           />
         </div>
 
-        {/* Instruction overlay (fades out if interacted) */}
-        {machineState === 'idle' && (
-          <div className="absolute top-24 left-[50%] -translate-x-[50%] md:top-auto md:-translate-x-0 md:bottom-12 md:left-12 w-[280px] md:max-w-xs animate-in fade-in slide-in-from-bottom-4 duration-1000 z-0">
-            <p className="font-serif text-base md:text-lg text-[#3a2a22] bg-[#f9f6f0]/90 backdrop-blur px-6 py-4 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.15)] border-2 border-[#d9b359]/50 text-center md:text-left leading-snug">
-              Take a small pause. Give the crank a little clockwise nudge.
-            </p>
-          </div>
-        )}
       </div>
 
     </main>

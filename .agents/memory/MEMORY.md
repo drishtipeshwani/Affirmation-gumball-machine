@@ -2,3 +2,4 @@
 - [Plain ivory scene](layered-neighborhood.md) — Plain warm-ivory scene; machine sits at the viewport bottom without page scrolling.
 - [Fortune-ball reveal](fortune-ball-reveal.md) — Paper affirmation emerges from an opening ball; show a sample for approval before app integration.
 - [Lean app UI](lean-app-ui.md) — Do not retain unused generic UI components solely for possible future screens.
+- [GitHub synchronization](github-synchronization.md) — Connected API access works independently of Git CLI authentication; local and remote histories differ.
