@@ -38,3 +38,9 @@ The user supplied an HTML animation and said it “captures the exact visual flo
 **Why:** The previous short twist followed by a direct expanding-paper reveal did not capture the intended choreography.
 
 **How to apply:** Follow the reference's staged, overlapping motion rather than showing the text as soon as the halves separate. Its two-turn thread motion is around the capsule axis, not a flat spin of the hemisphere silhouettes. The user approved main-app integration of this sequence.
+
+All balls, including those inside the globe and both halves of the dispensed capsule, should be transparent with a visible paper note inside.
+
+**Why:** The user repeated the transparency requirement and reshared the HTML because the implemented ball animation still did not match it.
+
+**How to apply:** Treat the supplied HTML's actual thread, collar, axial turn, and paper-hop choreography as the reference, not merely its overall duration. Do not retain an opaque colored lid or approximate the turn with moving highlights alone.
